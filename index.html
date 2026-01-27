@@ -1,14 +1,77 @@
 <!doctype html>
 <html lang="ru">
   <head>
+    <!-- Основные метатеги -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Title страницы -->
     <title>
-      ТОО «Экопласт» - Завод инженерных систем - Изделия из полипропилена
+      ТОО «Экопласт» — Завод инженерных систем — Изделия из полипропилена
     </title>
+
+    <!-- Description: краткое описание страницы -->
+    <meta
+      name="description"
+      content="ТОО «Экопласт» — производство и продажа инженерных систем и изделий из полипропилена. Надёжно, качественно и экологично."
+    />
+
+    <!-- Keywords: дополнительные ключевые слова -->
+    <meta
+      name="keywords"
+      content="Экопласт, пластиковые изделия, полипропилен, инженерные системы, производство, Казахстан"
+    />
+
+    <!-- Canonical: основной URL -->
+    <link rel="canonical" href="https://ekoplast.kz/" />
+
+    <!-- Open Graph: для соцсетей -->
+    <meta
+      property="og:title"
+      content="ТОО «Экопласт» — Завод инженерных систем — Изделия из полипропилена"
+    />
+    <meta
+      property="og:description"
+      content="Производство инженерных систем и изделий из полипропилена. ТОО «Экопласт» — надёжно и качественно."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ekoplast.kz/" />
+
+    <!-- Twitter Card: для Твиттера -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="ТОО «Экопласт» — Завод инженерных систем — Изделия из полипропилена"
+    />
+    <meta
+      name="twitter:description"
+      content="Производство инженерных систем и изделий из полипропилена. ТОО «Экопласт» — надёжно и качественно."
+    />
+
+    <!-- Favicon -->
     <link rel="icon" href="logo.png" type="image/png" />
     <link rel="apple-touch-icon" href="logo.png" />
     <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+
+    <!-- Структурированные данные (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ТОО «Экопласт»",
+        "url": "https://ekoplast.kz",
+        "sameAs": [
+          "https://www.facebook.com/ekoplast",
+          "https://www.instagram.com/ekoplast"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+7-700-000-00-00",
+          "contactType": "customer service"
+        }
+      }
+    </script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,7 +94,7 @@
         --green: #5a7b46;
         --dark-green: #468232;
         --white: #ffffff;
-        --light-green-bg: #CADBB7; /* Новый: очень светлый прозрачный зеленый */
+        --light-green-bg: #cadbb7; /* Новый: очень светлый прозрачный зеленый */
       }
 
       * {
@@ -1034,7 +1097,11 @@
       /* Секция услуг - меняем на светло-зеленый */
       .services-grid-section {
         padding: 100px 0;
-        background-color: rgb(232, 255, 218); /* Очень светлый прозрачный зеленый */
+        background-color: rgb(
+          232,
+          255,
+          218
+        ); /* Очень светлый прозрачный зеленый */
       }
 
       /* Галерея - оставляем белый */
@@ -1428,8 +1495,6 @@
         </h2>
 
         <div class="row">
-          
-
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div
               class="gallery-item"
@@ -1883,30 +1948,39 @@
               <li><a href="#products">Продукция</a></li>
               <li><a href="#about">О нас</a></li>
               <li><a href="#contact">Контакты</a></li>
-              
             </ul>
           </div>
           <!-- В футере добавлю новый блок после "Контакты" -->
-<div class="col-lg-4 mb-4">
-  <h3 class="footer-title">Опросные листы</h3>
-  <ul class="footer-links">
-    <li><a href="survey-kns.html">Опросный лист для подбора КНС</a></li>
-    <li>
-      <a href="survey-storm.html"
-        >Опросный лист для подбора очистных сооружений (ливневые стоки)</a
-      >
-    </li>
-    <li>
-      <a href="survey-domestic.html"
-        >Опросный лист для подбора очистных сооружений (хозбытовые стоки)</a
-      >
-    </li>
-    <li>
-      <a href="survey-control.html">Опросный лист для подбора шкафа управления</a>
-    </li>
-    <li><a href="survey-grease.html">Опросный лист для подбора жироуловителя</a></li>
-  </ul>
-</div>
+          <div class="col-lg-4 mb-4">
+            <h3 class="footer-title">Опросные листы</h3>
+            <ul class="footer-links">
+              <li>
+                <a href="survey-kns.html">Опросный лист для подбора КНС</a>
+              </li>
+              <li>
+                <a href="survey-storm.html"
+                  >Опросный лист для подбора очистных сооружений (ливневые
+                  стоки)</a
+                >
+              </li>
+              <li>
+                <a href="survey-domestic.html"
+                  >Опросный лист для подбора очистных сооружений (хозбытовые
+                  стоки)</a
+                >
+              </li>
+              <li>
+                <a href="survey-control.html"
+                  >Опросный лист для подбора шкафа управления</a
+                >
+              </li>
+              <li>
+                <a href="survey-grease.html"
+                  >Опросный лист для подбора жироуловителя</a
+                >
+              </li>
+            </ul>
+          </div>
 
           <div class="col-lg-4 mb-4">
             <h3 class="footer-title">Контакты</h3>

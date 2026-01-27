@@ -1,0 +1,15 @@
+# Разрешаем всем поисковым роботам сканировать сайт
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Allow: /
+
+# Подключаем sitemap для быстрого индексирования
+Sitemap: https://ekoplast.kz/sitemap.xml
+
+# Настройка crawl-delay для больших сайтов (необязательно для маленьких)
+Crawl-delay: 5
+
+# Запрещаем конкретные ботов, если нужно
+User-agent: BadBot
+Disallow: /
