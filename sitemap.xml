@@ -1,9 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://ekoplast.kz/</loc>
-    <lastmod>2026-01-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-</urlset>
+<?xml version="1.0" encoding="utf-8"?>
+<ns0:urlset xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+  <ns0:url>
+    
+    
+    <ns0:loc>https://ekoplast.kz/</ns0:loc>
+    
+    
+    <ns0:lastmod>2026-01-27</ns0:lastmod>
+    
+    
+    <ns0:changefreq>weekly</ns0:changefreq>
+    
+    
+    <ns0:priority>1.0</ns0:priority>
+    
+  
+  </ns0:url>
+  
+
+  <ns0:url>
+    <ns0:loc>https://ekoplast.kz/products/kns.html</ns0:loc>
+    <ns0:lastmod>2026-02-04</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.7</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://ekoplast.kz/products/grease.html</ns0:loc>
+    <ns0:lastmod>2026-02-04</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.7</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://ekoplast.kz/products/sand.html</ns0:loc>
+    <ns0:lastmod>2026-02-04</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.7</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://ekoplast.kz/products/cleaning.html</ns0:loc>
+    <ns0:lastmod>2026-02-04</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.7</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://ekoplast.kz/products/tanks.html</ns0:loc>
+    <ns0:lastmod>2026-02-04</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.7</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://ekoplast.kz/products/complex.html</ns0:loc>
+    <ns0:lastmod>2026-02-04</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.7</ns0:priority>
+  </ns0:url>
+</ns0:urlset>
